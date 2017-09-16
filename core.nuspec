@@ -3,20 +3,21 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.BrainTree.Core</id>
-        <version>2.5.3</version>
-        <description>Xamarin Binding Library - BrainTree Core</description>
-        <authors>Vu Duc Tuyen</authors>
+        <version>2.6.2</version>
+        <description>Xamarin Android Binding Library - BrainTree Core</description>
+        <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <title>Naxam - BrainTree Core</title>
-        <releaseNotes>BrainTree Core v2.5.3</releaseNotes>
-        <summary>Xamarin Binding Library - BrainTree Core</summary>
+        <title>Naxam - BrainTree Core for Android</title>
+        <releaseNotes>BrainTree Core v2.6.2</releaseNotes>
+        <summary>Xamarin Android Binding Library - BrainTree Core</summary>
+        <iconUrl>https://avatars3.githubusercontent.com/u/3453</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/xand-braintree-core</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
-        <tags>Xamarin.Android, braintree, core</tags>
+        <tags>Xamarin.Android, braintree, core, braintree-core</tags>
         <dependencies>
-            <dependency id="Naxam.BrainTree.BrowserSwitch.Droid" version="0.1.3" />
+            <dependency id="Naxam.BrainTree.BrowserSwitch.Droid" version="0.1.4" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
