@@ -11,6 +11,7 @@ var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 
 var VERSION = "2.10.0";
+var NUGET_SUFIX = ".1";
 
 //////////////////////////////////////////////////////////////////////
 // PREPARATION
@@ -88,7 +89,10 @@ Task("Pack")
 {
     foreach(var artifact in artifacts) {
         NuGetPack(artifact.NuspecPath, new NuGetPackSettings {
-            Version = VERSION
+            Version = VERSION + NUGET_SUFIX,
+            ReleaseNotes = new [] {
+                $"Braintree SDK - Core v{VERSION}"
+            }
         });
     }
 });
